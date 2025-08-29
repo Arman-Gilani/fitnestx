@@ -363,7 +363,7 @@ class _BreakfastScreenState extends State<BreakfastScreen> {
                                     onPressed: () {
                                       Navigator.push(
                                         context,
-                                        MaterialPageRoute(builder: (context) => BreakfastScreen(),),
+                                        MaterialPageRoute(builder: (context) => HoneyPancakeScreen(),),
                                       );
                                     },
                                     child: Ink(
