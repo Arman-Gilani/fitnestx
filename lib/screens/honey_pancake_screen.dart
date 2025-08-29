@@ -185,7 +185,7 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
                     children: [
 
                       Padding(
-                        padding: EdgeInsets.all(10.0),
+                        padding: EdgeInsets.only(left: 10.0,top: 10.0, bottom: 10.0),
                         child: Container(
                           decoration: BoxDecoration(
                             color: Color(0XFFE9F0FF),
@@ -218,7 +218,7 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
                       ),
 
                       Padding(
-                        padding: EdgeInsets.all(10.0),
+                        padding: EdgeInsets.only(left: 10.0, top: 10.0, bottom: 10.0),
                         child: Container(
                           decoration: BoxDecoration(
                             color: Color(0XFFE9F0FF),
@@ -251,7 +251,7 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
                       ),
 
                       Padding(
-                        padding: EdgeInsets.all(10.0),
+                        padding: EdgeInsets.only(left: 10.0,top: 10.0, bottom: 10.0),
                         child: Container(
                           decoration: BoxDecoration(
                             color: Color(0XFFE9F0FF),
@@ -324,7 +324,7 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
               Align(
                 alignment: Alignment.centerLeft,
                 child: Padding(
-                  padding: EdgeInsets.only(left: 20.0, top: 30.0),
+                  padding: EdgeInsets.only(left: 20.0, top: 20.0),
                   child: Text("Descriptions",
                     style: GoogleFonts.poppins(
                       textStyle: TextStyle(
@@ -356,6 +356,371 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
                   ),
                 ),
               ),
+
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: EdgeInsets.only(left: 20.0, top: 20.0),
+                  child: Text("Ingredients That You",
+                    style: GoogleFonts.poppins(
+                      textStyle: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+
+              SizedBox(
+                height: 6,
+              ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+
+                  Padding(
+                    padding: EdgeInsets.only(left: 20.0),
+                    child: Text("Will Need",
+                      style: GoogleFonts.poppins(
+                        textStyle: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black
+                        ),
+                      ),
+                    ),
+                  ),
+
+                  Padding(
+                    padding: EdgeInsets.only(right: 20.0),
+                    child: Text("6 items",
+                      style: GoogleFonts.poppins(
+                        textStyle: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.grey
+                        ),
+                      ),
+                    ),
+                  ),
+
+                ],
+              ),
+
+
+
+
+
+
+
+              SizedBox(
+                height: 105.0,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: [
+
+                    Column(
+                      children: [
+
+                        Padding(
+                          padding: EdgeInsets.all(10.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Color(0XFFF8F8F8),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Image.asset(""),
+                          ),
+                        ),
+
+                      ],
+                    ),
+
+                    /*Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Color(0XFFF8F8F8),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.only(left: 16.0, top: 16.0, right: 16.0),
+                          child: Column(
+                            children: [
+
+                              Text("Mon",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10.0,
+                              ),
+                              Text("01",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Color(0XFFF8F8F8),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.only(left: 16.0, top: 16.0, right: 16.0),
+                          child: Column(
+                            children: [
+
+                              Text("Tue",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10.0,
+                              ),
+                              Text("02",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Color(0XFFF8F8F8),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.only(left: 16.0, top: 16.0, right: 16.0),
+                          child: Column(
+                            children: [
+
+                              Text("Wed",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10.0,
+                              ),
+                              Text("03",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Color(0XFFF8F8F8),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.only(left: 16.0, top: 16.0, right: 16.0),
+                          child: Column(
+                            children: [
+
+                              Text("Thus",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10.0,
+                              ),
+                              Text("04",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Color(0XFFF8F8F8),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.only(left: 16.0, top: 16.0, right: 16.0),
+                          child: Column(
+                            children: [
+
+                              Text("Fri",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10.0,
+                              ),
+                              Text("05",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Color(0XFFF8F8F8),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.only(left: 16.0, top: 16.0, right: 16.0),
+                          child: Column(
+                            children: [
+
+                              Text("Sat",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10.0,
+                              ),
+                              Text("06",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Color(0XFFF8F8F8),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.only(left: 16.0, top: 16.0, right: 16.0),
+                          child: Column(
+                            children: [
+
+                              Text("Sun",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10.0,
+                              ),
+                              Text("07",
+                                style: GoogleFonts.poppins(
+                                  textStyle: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ),
+
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    */
+
+                  ],
+                ),
+              ),
+
+
+
+
+
+
+
+
+
+
+
+
 
               Padding(
                 padding: EdgeInsets.only(left: 20.0, top: 20.0, right: 20.0),
