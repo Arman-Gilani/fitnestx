@@ -417,22 +417,40 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
 
 
               SizedBox(
-                height: 105.0,
+                height: 155.0,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
                   children: [
 
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
 
                         Padding(
-                          padding: EdgeInsets.all(10.0),
+                          padding: EdgeInsets.only(left: 20.0, top: 10.0),
                           child: Container(
                             decoration: BoxDecoration(
                               color: Color(0XFFF8F8F8),
                               borderRadius: BorderRadius.circular(12),
                             ),
-                            child: Image.asset(""),
+                            child: Image.asset(
+                              "assets/images/Ingredients_Image1.png",
+                              height: 100,
+                              width: 100,
+                            ),
+                          ),
+                        ),
+
+                        Padding(
+                          padding: EdgeInsets.only(left: 20.0),
+                          child: Text("Pancakes more...",
+                            style: GoogleFonts.poppins(
+                              textStyle: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w600,
+                                  //color: Colors.grey
+                              ),
+                            ),
                           ),
                         ),
 
