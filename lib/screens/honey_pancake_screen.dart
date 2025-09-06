@@ -411,7 +411,7 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
               ),
 
               SizedBox(
-                height: 155.0,
+                height: 175.0,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
                   children: [
@@ -437,12 +437,73 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
 
                         Padding(
                           padding: EdgeInsets.only(left: 20.0),
-                          child: Text("",
+                          child: Text("Wheat Flour",
                             style: GoogleFonts.poppins(
                               textStyle: TextStyle(
                                   fontSize: 14,
                                   fontWeight: FontWeight.w600,
                                   //color: Colors.grey
+                              ),
+                            ),
+                          ),
+                        ),
+
+                        Padding(
+                          padding: EdgeInsets.only(left: 20.0, top: 5.0),
+                          child: Text("100gr",
+                            style: GoogleFonts.poppins(
+                              textStyle: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.grey
+                              ),
+                            ),
+                          ),
+                        ),
+
+                      ],
+                    ),
+
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+
+                        Padding(
+                          padding: EdgeInsets.only(left: 20.0, top: 10.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Color(0XFFF8F8F8),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Image.asset(
+                              "assets/images/Ingredients_Image2.png",
+                              height: 100,
+                              width: 100,
+                            ),
+                          ),
+                        ),
+
+                        Padding(
+                          padding: EdgeInsets.only(left: 20.0),
+                          child: Text("Wheat Flour",
+                            style: GoogleFonts.poppins(
+                              textStyle: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.w600,
+                                //color: Colors.grey
+                              ),
+                            ),
+                          ),
+                        ),
+
+                        Padding(
+                          padding: EdgeInsets.only(left: 20.0, top: 5.0),
+                          child: Text("100gr",
+                            style: GoogleFonts.poppins(
+                              textStyle: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.grey
                               ),
                             ),
                           ),
@@ -721,18 +782,6 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
                   ],
                 ),
               ),
-
-
-
-
-
-
-
-
-
-
-
-
 
               Padding(
                 padding: EdgeInsets.only(left: 20.0, top: 20.0, right: 20.0),
