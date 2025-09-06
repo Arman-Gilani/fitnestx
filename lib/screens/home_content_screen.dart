@@ -28,8 +28,6 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
     return Scaffold(
 
       appBar: AppBar(
-        automaticallyImplyLeading: false,
-        backgroundColor: Colors.white,
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -79,6 +77,10 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
             ),
           ),
         ],
+
+        automaticallyImplyLeading: false,
+
+        backgroundColor: Colors.white,
 
       ),
 

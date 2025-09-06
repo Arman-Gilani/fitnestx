@@ -14,7 +14,11 @@ class _GoalScreen2State extends State<GoalScreen2> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      appBar: AppBar(),
+      appBar: AppBar(
+
+        backgroundColor: Colors.white,
+
+      ),
 
       body: SafeArea(
         child: SingleChildScrollView(
@@ -177,6 +181,9 @@ class _GoalScreen2State extends State<GoalScreen2> {
           ),
         ),
       ),
+
+      backgroundColor: Colors.white,
+
     );
   }
 }
