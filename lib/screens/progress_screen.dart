@@ -232,7 +232,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
                 Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Container(
-                    height: 55,
+                    height: 65,
                     decoration: BoxDecoration(
                       color: Color(0xFFE9F0FF),
                       borderRadius: BorderRadius.circular(16),
@@ -250,7 +250,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(0, 0, 20, 0),
+                          padding: EdgeInsets.fromLTRB(0, 10.0, 20, 10.0),
                           child: ElevatedButton(
                             style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all(Colors.blue[200]),

@@ -186,7 +186,7 @@ class _SleepTrackerScreenState extends State<SleepTrackerScreen> {
                 Padding(
                   padding: EdgeInsets.only(left: 20.0, top: 20.0, right: 20.0),
                   child: Container(
-                    height: 55,
+                    height: 65,
                     decoration: BoxDecoration(
                       color: Color(0xFFE9F0FF),
                       borderRadius: BorderRadius.circular(16),
@@ -204,7 +204,7 @@ class _SleepTrackerScreenState extends State<SleepTrackerScreen> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(0, 0, 20, 0),
+                          padding: EdgeInsets.fromLTRB(0, 10.0, 20, 10.0),
                           child: ElevatedButton(
                             style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all(Colors.blue[200]),
@@ -254,81 +254,90 @@ class _SleepTrackerScreenState extends State<SleepTrackerScreen> {
                           Row(
                             children: [
 
-                              Container(
-                                width: 65,
-                                height: 65,
-                                decoration: BoxDecoration(
-                                  color: Color(0XFFE9F0FF),
-                                  borderRadius: BorderRadius.circular(44.0),
-                                ),
-                                child: Icon(
-                                    Icons.bed_rounded,
-                                    size: 46.0
+                              Padding(
+                                padding: EdgeInsets.only(left: 10.0),
+                                child: Container(
+                                  width: 65,
+                                  height: 65,
+                                  decoration: BoxDecoration(
+                                    color: Color(0XFFE9F0FF),
+                                    borderRadius: BorderRadius.circular(44.0),
+                                  ),
+                                  child: Icon(
+                                      Icons.bed_rounded,
+                                      size: 46.0
+                                  ),
                                 ),
                               ),
                               Padding(
                                 padding: EdgeInsets.only(left: 10.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
+                                child: Padding(
+                                  padding: EdgeInsets.only(left: 10.0),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
 
-                                    Row(
-                                      children: [
+                                      Row(
+                                        children: [
 
-                                        Text("Bedtime, ",
-                                          style: GoogleFonts.poppins(
-                                            textStyle: TextStyle(
-                                                fontSize: 16,
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.black
+                                          Text("Bedtime, ",
+                                            style: GoogleFonts.poppins(
+                                              textStyle: TextStyle(
+                                                  fontSize: 16,
+                                                  fontWeight: FontWeight.bold,
+                                                  color: Colors.black
+                                              ),
                                             ),
                                           ),
-                                        ),
-                                        Text("09:00pm",
-                                          style: GoogleFonts.poppins(
-                                            textStyle: TextStyle(
-                                                fontSize: 12,
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.grey
+                                          Text("09:00pm",
+                                            style: GoogleFonts.poppins(
+                                              textStyle: TextStyle(
+                                                  fontSize: 12,
+                                                  fontWeight: FontWeight.bold,
+                                                  color: Colors.grey
+                                              ),
                                             ),
                                           ),
-                                        ),
 
-                                      ],
-                                    ),
-                                    Text("in 6hours 22minutes",
-                                      style: GoogleFonts.poppins(
-                                        textStyle: TextStyle(
-                                            fontSize: 12,
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.grey
+                                        ],
+                                      ),
+                                      Text("in 6hours 22minutes",
+                                        style: GoogleFonts.poppins(
+                                          textStyle: TextStyle(
+                                              fontSize: 12,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.grey
+                                          ),
                                         ),
                                       ),
-                                    ),
 
-                                  ],
+                                    ],
+                                  ),
                                 ),
                               ),
 
                             ],
                           ),
 
-                          Column(
-                            children: [
+                          Padding(
+                            padding: EdgeInsets.only(right: 10.0),
+                            child: Column(
+                              children: [
 
-                              Padding(
-                                padding: EdgeInsets.only(left: 40.0, bottom: 10.0),
-                                child: Icon(
-                                  Icons.more_vert_rounded,
-                                  color: Colors.grey,
+                                Padding(
+                                  padding: EdgeInsets.only(left: 40.0, bottom: 10.0),
+                                  child: Icon(
+                                    Icons.more_vert_rounded,
+                                    color: Colors.grey,
+                                  ),
                                 ),
-                              ),
-                              Switch(
-                                value: true,
-                                onChanged: (value) {},
-                              ),
+                                Switch(
+                                  value: true,
+                                  onChanged: (value) {},
+                                ),
 
-                            ],
+                              ],
+                            ),
                           ),
 
                         ],
@@ -349,84 +358,90 @@ class _SleepTrackerScreenState extends State<SleepTrackerScreen> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
 
-                          Row(
-                            children: [
+                          Padding(
+                            padding: EdgeInsets.only(left: 10.0),
+                            child: Row(
+                              children: [
 
-                              Container(
-                                width: 65,
-                                height: 65,
-                                decoration: BoxDecoration(
-                                  color: Color(0XFFE9F0FF),
-                                  borderRadius: BorderRadius.circular(44.0),
+                                Container(
+                                  width: 65,
+                                  height: 65,
+                                  decoration: BoxDecoration(
+                                    color: Color(0XFFE9F0FF),
+                                    borderRadius: BorderRadius.circular(44.0),
+                                  ),
+                                  child: Icon(
+                                      Icons.alarm_add_rounded,
+                                      size: 46.0
+                                  ),
                                 ),
-                                child: Icon(
-                                    Icons.alarm_add_rounded,
-                                    size: 46.0
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsets.only(left: 10.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
+                                Padding(
+                                  padding: EdgeInsets.only(left: 10.0),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
 
-                                    Row(
-                                      children: [
+                                      Row(
+                                        children: [
 
-                                        Text("Alarm, ",
-                                          style: GoogleFonts.poppins(
-                                            textStyle: TextStyle(
-                                                fontSize: 16,
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.black
+                                          Text("Alarm, ",
+                                            style: GoogleFonts.poppins(
+                                              textStyle: TextStyle(
+                                                  fontSize: 16,
+                                                  fontWeight: FontWeight.bold,
+                                                  color: Colors.black
+                                              ),
                                             ),
                                           ),
-                                        ),
-                                        Text("05:10am",
-                                          style: GoogleFonts.poppins(
-                                            textStyle: TextStyle(
-                                                fontSize: 12,
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.grey
+                                          Text("05:10am",
+                                            style: GoogleFonts.poppins(
+                                              textStyle: TextStyle(
+                                                  fontSize: 12,
+                                                  fontWeight: FontWeight.bold,
+                                                  color: Colors.grey
+                                              ),
                                             ),
                                           ),
-                                        ),
 
-                                      ],
-                                    ),
-                                    Text("in 14hours 30minutes",
-                                      style: GoogleFonts.poppins(
-                                        textStyle: TextStyle(
-                                            fontSize: 12,
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.grey
+                                        ],
+                                      ),
+                                      Text("in 14hours 30minutes",
+                                        style: GoogleFonts.poppins(
+                                          textStyle: TextStyle(
+                                              fontSize: 12,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.grey
+                                          ),
                                         ),
                                       ),
-                                    ),
 
-                                  ],
+                                    ],
+                                  ),
                                 ),
-                              ),
 
-                            ],
+                              ],
+                            ),
                           ),
 
-                          Column(
-                            children: [
+                          Padding(
+                            padding: EdgeInsets.only(right: 10.0),
+                            child: Column(
+                              children: [
 
-                              Padding(
-                                padding: EdgeInsets.only(left: 40.0, bottom: 10.0),
-                                child: Icon(
-                                  Icons.more_vert_rounded,
-                                  color: Colors.grey,
+                                Padding(
+                                  padding: EdgeInsets.only(left: 40.0, bottom: 10.0),
+                                  child: Icon(
+                                    Icons.more_vert_rounded,
+                                    color: Colors.grey,
+                                  ),
                                 ),
-                              ),
-                              Switch(
-                                value: true,
-                                onChanged: (value) {},
-                              ),
+                                Switch(
+                                  value: true,
+                                  onChanged: (value) {},
+                                ),
 
-                            ],
+                              ],
+                            ),
                           ),
 
                         ],
