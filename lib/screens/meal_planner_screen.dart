@@ -154,7 +154,7 @@ class _MealPlannerScreenState extends State<MealPlannerScreen> {
                 Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Container(
-                    height: 55,
+                    height: 65,
                     decoration: BoxDecoration(
                       color: Color(0xFFE9F0FF),
                       borderRadius: BorderRadius.circular(16),
@@ -164,10 +164,11 @@ class _MealPlannerScreenState extends State<MealPlannerScreen> {
                       children: [
 
                         Padding(
-                          padding: EdgeInsets.fromLTRB(20, 0, 0, 0),
+                          padding: EdgeInsets.fromLTRB(20.0, 10.0, 0, 10.0),
                           child: Text("Daily Meal Schedule",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
+                              color: Colors.black,
                             ),
                           ),
                         ),
@@ -234,16 +235,19 @@ class _MealPlannerScreenState extends State<MealPlannerScreen> {
                           Row(
                             children: [
 
-                              Container(
-                                width: 65,
-                                height: 65,
-                                decoration: BoxDecoration(
-                                  color: Color(0XFFE9F0FF),
-                                  borderRadius: BorderRadius.circular(44.0),
-                                ),
-                                child: Icon(
-                                    Icons.restaurant,
-                                    size: 46.0
+                              Padding(
+                                padding: EdgeInsets.only(left: 10.0),
+                                child: Container(
+                                  width: 65,
+                                  height: 65,
+                                  decoration: BoxDecoration(
+                                    color: Color(0XFFE9F0FF),
+                                    borderRadius: BorderRadius.circular(44.0),
+                                  ),
+                                  child: Icon(
+                                      Icons.restaurant,
+                                      size: 46.0
+                                  ),
                                 ),
                               ),
                               Padding(
@@ -278,9 +282,12 @@ class _MealPlannerScreenState extends State<MealPlannerScreen> {
                             ],
                           ),
 
-                          Icon(
-                            Icons.notifications_active_outlined,
-                            color: Colors.pinkAccent,
+                          Padding(
+                            padding: EdgeInsets.only(right: 10.0),
+                            child: Icon(
+                              Icons.notifications_active_outlined,
+                              color: Colors.pinkAccent,
+                            ),
                           ),
 
                         ],
@@ -304,16 +311,19 @@ class _MealPlannerScreenState extends State<MealPlannerScreen> {
                           Row(
                             children: [
 
-                              Container(
-                                width: 65,
-                                height: 65,
-                                decoration: BoxDecoration(
-                                  color: Color(0XFFE9F0FF),
-                                  borderRadius: BorderRadius.circular(44.0),
-                                ),
-                                child: Icon(
-                                    Icons.restaurant,
-                                    size: 46.0
+                              Padding(
+                                padding: EdgeInsets.only(left: 10.0),
+                                child: Container(
+                                  width: 65,
+                                  height: 65,
+                                  decoration: BoxDecoration(
+                                    color: Color(0XFFE9F0FF),
+                                    borderRadius: BorderRadius.circular(44.0),
+                                  ),
+                                  child: Icon(
+                                      Icons.restaurant,
+                                      size: 46.0
+                                  ),
                                 ),
                               ),
                               Padding(
@@ -348,9 +358,12 @@ class _MealPlannerScreenState extends State<MealPlannerScreen> {
                             ],
                           ),
 
-                          Icon(
-                            Icons.notifications_off_outlined,
-                            color: Colors.pinkAccent,
+                          Padding(
+                            padding: EdgeInsets.only(right: 10.0),
+                            child: Icon(
+                              Icons.notifications_off_outlined,
+                              color: Colors.pinkAccent,
+                            ),
                           ),
 
                         ],
