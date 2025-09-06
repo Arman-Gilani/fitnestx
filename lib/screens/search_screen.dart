@@ -75,6 +75,9 @@ class _SearchScreenState extends State<SearchScreen> {
           ),
 
         ],
+
+        backgroundColor: Colors.white,
+
       ),
 
       body: SafeArea(
@@ -160,6 +163,8 @@ class _SearchScreenState extends State<SearchScreen> {
           ],
         ),
       ),
+
+      backgroundColor: Colors.white,
 
     );
   }

@@ -52,6 +52,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
             ),
           ),
         ],
+
+        backgroundColor: Colors.white,
+
       ),
 
       body: SafeArea(
@@ -587,6 +590,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ),
         ),
       ),
+
+      backgroundColor: Colors.white,
 
     );
   }

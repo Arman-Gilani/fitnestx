@@ -53,6 +53,9 @@ class _ProgressScreenState extends State<ProgressScreen> {
             ),
           ),
         ],
+
+        backgroundColor: Colors.white,
+
       ),
 
       body: SafeArea(
@@ -468,6 +471,8 @@ class _ProgressScreenState extends State<ProgressScreen> {
           color: Colors.white,
         ),
       ),
+
+      backgroundColor: Colors.white,
 
     );
   }

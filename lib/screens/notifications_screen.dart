@@ -54,6 +54,9 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
             ),
           ),
         ],
+
+        backgroundColor: Colors.white,
+
       ),
 
       body: SafeArea(
@@ -528,6 +531,8 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
             ],
           ),
       ),
+
+      backgroundColor: Colors.white,
 
     );
   }
