@@ -55,11 +55,11 @@ class _WorkoutTrackerScreen1State extends State<WorkoutTrackerScreen1> {
           ),
         ),
 
-        backgroundColor: Colors.transparent,
-
-        elevation: 0,
+        backgroundColor: Colors.white,
 
         automaticallyImplyLeading: false,
+
+        
 
       ),
 
