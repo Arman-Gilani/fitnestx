@@ -77,24 +77,30 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
 
-                              Text("Today Target",
-                                style: GoogleFonts.poppins(
-                                  textStyle: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.black
+                              Padding(
+                                padding: EdgeInsets.only(left: 10.0),
+                                child: Text("Today Target",
+                                  style: GoogleFonts.poppins(
+                                    textStyle: TextStyle(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.black
+                                    ),
                                   ),
                                 ),
                               ),
-                              Container(
-                                decoration: BoxDecoration(
-                                  color: Color(0XFF98B3FF),
-                                  borderRadius: BorderRadius.circular(16.0),
-                                ),
-                                child: IconButton(
-                                  icon: Icon(Icons.add),
-                                  color: Colors.white,
-                                  onPressed: () {},
+                              Padding(
+                                padding: EdgeInsets.only(right: 10.0),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Color(0XFF98B3FF),
+                                    borderRadius: BorderRadius.circular(16.0),
+                                  ),
+                                  child: IconButton(
+                                    icon: Icon(Icons.add),
+                                    color: Colors.white,
+                                    onPressed: () {},
+                                  ),
                                 ),
                               )
 
@@ -103,7 +109,7 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
                         ),
 
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 30.0),
+                          padding: EdgeInsets.fromLTRB(20.0, 0.0, 20.0, 30.0),
                           child: Row(
                             children: [
 
@@ -619,55 +625,58 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
 
-                          Row(
-                            children: [
+                          Padding(
+                            padding: EdgeInsets.only(left: 10.0),
+                            child: Row(
+                              children: [
 
-                              Container(
-                                width: 65,
-                                height: 65,
-                                decoration: BoxDecoration(
-                                  color: Color(0XFFE9F0FF),
-                                  borderRadius: BorderRadius.circular(44.0),
+                                Container(
+                                  width: 65,
+                                  height: 65,
+                                  decoration: BoxDecoration(
+                                    color: Color(0XFFE9F0FF),
+                                    borderRadius: BorderRadius.circular(44.0),
+                                  ),
+                                  child: Icon(
+                                      Icons.person,
+                                      size: 46.0
+                                  ),
                                 ),
-                                child: Icon(
-                                    Icons.person,
-                                    size: 46.0
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsets.only(left: 10.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
+                                Padding(
+                                  padding: EdgeInsets.only(left: 10.0),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
 
-                                    Text("Drinking 300ml Water",
-                                      style: GoogleFonts.poppins(
-                                        textStyle: TextStyle(
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.black
+                                      Text("Drinking 300ml Water",
+                                        style: GoogleFonts.poppins(
+                                          textStyle: TextStyle(
+                                              fontSize: 16,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.black
+                                          ),
                                         ),
                                       ),
-                                    ),
-                                    Text("About 3 minutes ago",
-                                      style: GoogleFonts.poppins(
-                                        textStyle: TextStyle(
-                                            fontSize: 12,
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.grey
+                                      Text("About 3 minutes ago",
+                                        style: GoogleFonts.poppins(
+                                          textStyle: TextStyle(
+                                              fontSize: 12,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.grey
+                                          ),
                                         ),
                                       ),
-                                    ),
 
-                                  ],
+                                    ],
+                                  ),
                                 ),
-                              ),
 
-                            ],
+                              ],
+                            ),
                           ),
 
                           Padding(
-                            padding: EdgeInsets.only(bottom: 30.0),
+                            padding: EdgeInsets.only(right: 10.0, bottom: 30.0),
                             child: Icon(
                               Icons.more_vert_rounded,
                               color: Colors.grey,
@@ -692,55 +701,58 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
 
-                          Row(
-                            children: [
+                          Padding(
+                            padding: EdgeInsets.only(left: 10.0),
+                            child: Row(
+                              children: [
 
-                              Container(
-                                width: 65,
-                                height: 65,
-                                decoration: BoxDecoration(
-                                  color: Color(0XFFE9F0FF),
-                                  borderRadius: BorderRadius.circular(44.0),
+                                Container(
+                                  width: 65,
+                                  height: 65,
+                                  decoration: BoxDecoration(
+                                    color: Color(0XFFE9F0FF),
+                                    borderRadius: BorderRadius.circular(44.0),
+                                  ),
+                                  child: Icon(
+                                      Icons.person_3_rounded,
+                                      size: 46.0
+                                  ),
                                 ),
-                                child: Icon(
-                                    Icons.person_3_rounded,
-                                    size: 46.0
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsets.only(left: 10.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
+                                Padding(
+                                  padding: EdgeInsets.only(left: 10.0),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
 
-                                    Text("Eat Snack(Fitbar)",
-                                      style: GoogleFonts.poppins(
-                                        textStyle: TextStyle(
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.black
+                                      Text("Eat Snack(Fitbar)",
+                                        style: GoogleFonts.poppins(
+                                          textStyle: TextStyle(
+                                              fontSize: 16,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.black
+                                          ),
                                         ),
                                       ),
-                                    ),
-                                    Text("About 10 minutes ago",
-                                      style: GoogleFonts.poppins(
-                                        textStyle: TextStyle(
-                                            fontSize: 12,
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.grey
+                                      Text("About 10 minutes ago",
+                                        style: GoogleFonts.poppins(
+                                          textStyle: TextStyle(
+                                              fontSize: 12,
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.grey
+                                          ),
                                         ),
                                       ),
-                                    ),
 
-                                  ],
+                                    ],
+                                  ),
                                 ),
-                              ),
 
-                            ],
+                              ],
+                            ),
                           ),
 
                           Padding(
-                            padding: EdgeInsets.only(bottom: 30.0),
+                            padding: EdgeInsets.only(right: 10.0, bottom: 30.0),
                             child: Icon(
                               Icons.more_vert_rounded,
                               color: Colors.grey,

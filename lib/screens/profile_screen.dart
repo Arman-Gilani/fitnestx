@@ -94,7 +94,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           ),
                         ),
                       ),
-                      Text("Real time updates"),
+                      Text("Lose a Fat Program"),
 
                     ],
                   ),
@@ -106,7 +106,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
-                      child: Text("data",
+                      child: Text("Edit",
                       style: TextStyle(
                         color: Colors.white,
                       ),
@@ -128,7 +128,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     elevation: 3,
                     borderRadius: BorderRadius.circular(16),
                     color: Colors.white,
-                    child: Container(
+                    child: SizedBox(
                       width: 100,
                       height: 80,
                       child: Column(
