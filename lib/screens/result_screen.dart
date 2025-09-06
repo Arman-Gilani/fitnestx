@@ -86,6 +86,7 @@ class _ResultScreenState extends State<ResultScreen> {
           ],
 
           backgroundColor: Colors.white,
+
           elevation: 0,
 
         ),
