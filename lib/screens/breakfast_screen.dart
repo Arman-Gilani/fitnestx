@@ -95,7 +95,7 @@ class _BreakfastScreenState extends State<BreakfastScreen> {
                   padding: EdgeInsets.only(left: 20.0),
                   child: Align(
                     alignment: Alignment.centerLeft,
-                    child: Text("Breakfast",
+                    child: Text("Category",
                       style: GoogleFonts.poppins(
                         textStyle: TextStyle(
                             fontSize: 20,

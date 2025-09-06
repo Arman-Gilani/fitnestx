@@ -122,7 +122,7 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
                           child: Row(
                             children: [
 
-                              Text("by",
+                              Text("by ",
                                 style: GoogleFonts.poppins(
                                   textStyle: TextStyle(
                                     fontSize: 14,
