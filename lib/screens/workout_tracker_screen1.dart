@@ -59,7 +59,7 @@ class _WorkoutTrackerScreen1State extends State<WorkoutTrackerScreen1> {
 
         automaticallyImplyLeading: false,
 
-        
+        elevation: 0,
 
       ),
 
