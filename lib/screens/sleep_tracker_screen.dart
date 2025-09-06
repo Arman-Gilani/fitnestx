@@ -455,6 +455,8 @@ class _SleepTrackerScreenState extends State<SleepTrackerScreen> {
           ),
       ),
 
+      backgroundColor: Colors.white,
+
     );
   }
 }

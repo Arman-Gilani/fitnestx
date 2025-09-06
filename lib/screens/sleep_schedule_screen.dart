@@ -783,6 +783,8 @@ class _SleepScheduleScreenState extends State<SleepScheduleScreen> {
         ),
       ),
 
+      backgroundColor: Colors.white,
+
     );
   }
 }
