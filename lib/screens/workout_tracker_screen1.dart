@@ -540,6 +540,8 @@ class _WorkoutTrackerScreen1State extends State<WorkoutTrackerScreen1> {
           ),
       ),
 
+      backgroundColor: Colors.white,
+
     );
 
   }

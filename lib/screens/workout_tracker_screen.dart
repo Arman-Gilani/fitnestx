@@ -75,6 +75,9 @@ class _WorkoutTrackerScreenState extends State<WorkoutTrackerScreen> {
             ),
           ),
         ],
+
+        backgroundColor: Colors.white,
+
       ),
 
       body: SafeArea(
@@ -599,6 +602,8 @@ class _WorkoutTrackerScreenState extends State<WorkoutTrackerScreen> {
             ),
           ),
       ),
+
+      backgroundColor: Colors.white,
 
     );
   }
