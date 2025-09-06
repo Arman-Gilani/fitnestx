@@ -605,7 +605,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                         backgroundColor: MaterialStateProperty.all(Colors.blue[200]),
                       ),
                       onPressed: () {},
-                      child: Text("Check",
+                      child: Text("Weekly",
                         style: TextStyle(
                           color: Colors.white,
                         ),
@@ -705,7 +705,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                             ),
 
                             Padding(
-                              padding: EdgeInsets.only(left: 10),
+                              padding: EdgeInsets.only(left: 20.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -752,7 +752,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                         width: 75,
                                         height: 15,
                                         decoration: BoxDecoration(
-                                          color: Colors.blue,
+                                          gradient: LinearGradient(colors: [Color(0XFF92A4FC), Color(0XFFAD98F7)]),
                                           borderRadius: BorderRadius.only(topLeft: Radius.circular(20), bottomLeft: Radius.circular(20)),
                                         ),
                                       ),
@@ -776,8 +776,8 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                         ),
 
                         Container(
-                          height: 60,
-                          width: 60,
+                          height: 35,
+                          width: 35,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(
@@ -817,7 +817,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                             ),
 
                             Padding(
-                              padding: EdgeInsets.only(left: 10),
+                              padding: EdgeInsets.only(left: 20.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -863,7 +863,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                         width: 125,
                                         height: 15,
                                         decoration: BoxDecoration(
-                                          color: Colors.blue,
+                                          gradient: LinearGradient(colors: [Color(0XFF92A4FC), Color(0XFFAD98F7)]),
                                           borderRadius: BorderRadius.only(topLeft: Radius.circular(20), bottomLeft: Radius.circular(20)),
                                         ),
                                       ),
@@ -887,8 +887,8 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                         ),
 
                         Container(
-                          height: 60,
-                          width: 60,
+                          height: 35,
+                          width: 35,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(
@@ -927,7 +927,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                             ),
 
                             Padding(
-                              padding: EdgeInsets.only(left: 10),
+                              padding: EdgeInsets.only(left: 20.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -974,7 +974,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                         width: 75,
                                         height: 15,
                                         decoration: BoxDecoration(
-                                          color: Colors.blue,
+                                          gradient: LinearGradient(colors: [Color(0XFF92A4FC), Color(0XFFAD98F7)]),
                                           borderRadius: BorderRadius.only(topLeft: Radius.circular(20), bottomLeft: Radius.circular(20)),
                                         ),
                                       ),
@@ -998,8 +998,8 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                         ),
 
                         Container(
-                          height: 60,
-                          width: 60,
+                          height: 35,
+                          width: 35,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(
@@ -1039,7 +1039,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                             ),
 
                             Padding(
-                              padding: EdgeInsets.only(left: 10),
+                              padding: EdgeInsets.only(left: 20.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -1086,7 +1086,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                         width: 105,
                                         height: 15,
                                         decoration: BoxDecoration(
-                                          color: Colors.blue,
+                                          gradient: LinearGradient(colors: [Color(0XFF92A4FC), Color(0XFFAD98F7)]),
                                           borderRadius: BorderRadius.only(topLeft: Radius.circular(20), bottomLeft: Radius.circular(20)),
                                         ),
                                       ),
@@ -1110,17 +1110,17 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                         ),
 
                         Container(
-                          height: 60,
-                          width: 60,
+                          height: 35,
+                          width: 35,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(
-                                color: Colors.pinkAccent
+                                color: Colors.pinkAccent,
                             ),
                           ),
                           child: Icon(
                               Icons.arrow_forward_ios_rounded,
-                              color: Colors.pinkAccent
+                              color: Colors.pinkAccent,
                           ),
                         ),
 
@@ -1151,7 +1151,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                             ),
 
                             Padding(
-                              padding: EdgeInsets.only(left: 10),
+                              padding: EdgeInsets.only(left: 20.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -1198,7 +1198,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                         width: 55,
                                         height: 15,
                                         decoration: BoxDecoration(
-                                          color: Colors.blue,
+                                          gradient: LinearGradient(colors: [Color(0XFF92A4FC), Color(0XFFAD98F7)]),
                                           borderRadius: BorderRadius.only(topLeft: Radius.circular(20), bottomLeft: Radius.circular(20)),
                                         ),
                                       ),
@@ -1222,17 +1222,17 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                         ),
 
                         Container(
-                          height: 60,
-                          width: 60,
+                          height: 35,
+                          width: 35,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(
-                                color: Colors.pinkAccent
+                              color: Colors.pinkAccent,
                             ),
                           ),
                           child: Icon(
-                              Icons.arrow_forward_ios_rounded,
-                              color: Colors.pinkAccent
+                            Icons.arrow_forward_ios_rounded,
+                            color: Colors.pinkAccent,
                           ),
                         ),
 
