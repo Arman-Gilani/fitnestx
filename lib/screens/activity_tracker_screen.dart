@@ -54,6 +54,9 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
             ),
           ),
         ],
+
+        backgroundColor: Colors.white,
+
       ),
 
       body: SafeArea(
@@ -539,7 +542,6 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
                           ],
                         ),
 
-
                         Column(
                           children: [
 
@@ -769,6 +771,8 @@ class _ActivityTrackerScreenState extends State<ActivityTrackerScreen> {
             ),
           ),
       ),
+
+      backgroundColor: Colors.white,
 
     );
   }

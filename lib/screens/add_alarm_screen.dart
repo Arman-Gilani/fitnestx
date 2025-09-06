@@ -54,6 +54,9 @@ class _AddAlarmScreenState extends State<AddAlarmScreen> {
             ),
           ),
         ],
+
+        backgroundColor: Colors.white,
+
       ),
 
       body: SafeArea(
@@ -372,6 +375,8 @@ class _AddAlarmScreenState extends State<AddAlarmScreen> {
             ],
           ),
       ),
+
+      backgroundColor: Colors.white,
 
     );
   }
