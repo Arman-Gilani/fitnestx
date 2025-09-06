@@ -705,16 +705,19 @@ class _BreakfastScreenState extends State<BreakfastScreen> {
                             Row(
                               children: [
 
-                                Container(
-                                  width: 65,
-                                  height: 65,
-                                  decoration: BoxDecoration(
-                                    color: Color(0XFFE9F0FF),
-                                    borderRadius: BorderRadius.circular(44.0),
-                                  ),
-                                  child: Icon(
-                                      Icons.restaurant,
-                                      size: 46.0
+                                Padding(
+                                  padding: EdgeInsets.only(left: 10.0),
+                                  child: Container(
+                                    width: 65,
+                                    height: 65,
+                                    decoration: BoxDecoration(
+                                      color: Color(0XFFE9F0FF),
+                                      borderRadius: BorderRadius.circular(44.0),
+                                    ),
+                                    child: Icon(
+                                        Icons.restaurant,
+                                        size: 46.0
+                                    ),
                                   ),
                                 ),
                                 Padding(
@@ -749,19 +752,22 @@ class _BreakfastScreenState extends State<BreakfastScreen> {
                               ],
                             ),
 
-                            Container(
-                              decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                border: Border.all(
-                                  color: Colors.grey,
-                                  width: 2.0,
+                            Padding(
+                              padding: EdgeInsets.only(right: 10.0),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color: Colors.grey,
+                                    width: 2.0,
+                                  ),
                                 ),
-                              ),
-                              padding: EdgeInsets.all(2.0),
-                              child: Icon(
-                                Icons.arrow_forward_ios_rounded,
-                                color: Colors.grey,
-                                size: 15,
+                                padding: EdgeInsets.all(2.0),
+                                child: Icon(
+                                  Icons.arrow_forward_ios_rounded,
+                                  color: Colors.grey,
+                                  size: 15,
+                                ),
                               ),
                             ),
 
@@ -793,16 +799,19 @@ class _BreakfastScreenState extends State<BreakfastScreen> {
                           Row(
                             children: [
 
-                              Container(
-                                width: 65,
-                                height: 65,
-                                decoration: BoxDecoration(
-                                  color: Color(0XFFE9F0FF),
-                                  borderRadius: BorderRadius.circular(44.0),
-                                ),
-                                child: Icon(
-                                    Icons.restaurant,
-                                    size: 46.0
+                              Padding(
+                                padding: EdgeInsets.only(left: 10.0),
+                                child: Container(
+                                  width: 65,
+                                  height: 65,
+                                  decoration: BoxDecoration(
+                                    color: Color(0XFFE9F0FF),
+                                    borderRadius: BorderRadius.circular(44.0),
+                                  ),
+                                  child: Icon(
+                                      Icons.restaurant,
+                                      size: 46.0
+                                  ),
                                 ),
                               ),
                               Padding(
@@ -837,19 +846,22 @@ class _BreakfastScreenState extends State<BreakfastScreen> {
                             ],
                           ),
 
-                          Container(
-                            decoration: BoxDecoration(
-                              shape: BoxShape.circle,
-                              border: Border.all(
-                                color: Colors.grey,
-                                width: 2.0,
+                          Padding(
+                            padding: EdgeInsets.only(right: 10.0),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: Colors.grey,
+                                  width: 2.0,
+                                ),
                               ),
-                            ),
-                            padding: EdgeInsets.all(2.0),
-                            child: Icon(
-                              Icons.arrow_forward_ios_rounded,
-                              color: Colors.grey,
-                              size: 15,
+                              padding: EdgeInsets.all(2.0),
+                              child: Icon(
+                                Icons.arrow_forward_ios_rounded,
+                                color: Colors.grey,
+                                size: 15,
+                              ),
                             ),
                           ),
 
