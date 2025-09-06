@@ -115,6 +115,9 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                 color: Colors.white,
                               ),
                             ),
+                            SizedBox(
+                              height: 10,
+                            ),
                             ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                 shape: RoundedRectangleBorder(
@@ -129,12 +132,15 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                 ),
                               ),
                             ),
+                            SizedBox(
+                              height: 10,
+                            ),
                           ],
                         ),
                       ),
 
                       Padding(
-                        padding: EdgeInsets.all(10.0),
+                        padding: EdgeInsets.only(left: 10.0),
                         child: Column(
                           children: [
                             ElevatedButton(
@@ -163,7 +169,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
               Padding(
                 padding: EdgeInsets.all(20.0),
                 child: Container(
-                  height: 55,
+                  height: 65,
                   decoration: BoxDecoration(
                     color: Color(0xFFE9F0FF),
                     borderRadius: BorderRadius.circular(16),
@@ -181,7 +187,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                         ),
                       ),
                       Padding(
-                        padding: EdgeInsets.fromLTRB(0, 0, 20, 0),
+                        padding: EdgeInsets.fromLTRB(0.0, 10.0, 20, 10.0),
                         child: ElevatedButton(
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all(Colors.blue[200]),
@@ -207,6 +213,7 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                   child: Text("Activity Status",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
+                      color: Colors.black,
                     ),
                   ),
                 ),
@@ -421,7 +428,11 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
                                             Text("6am - 8am"),
-                                            Text("600ml"),
+                                            Text("600ml",
+                                              style: TextStyle(
+                                                color: Colors.pink,
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
@@ -432,7 +443,11 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
                                             Text("9am - 11am"),
-                                            Text("500ml"),
+                                            Text("500ml",
+                                              style: TextStyle(
+                                                color: Colors.pink,
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
@@ -443,7 +458,11 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
                                             Text("11am - 2pm"),
-                                            Text("1000ml"),
+                                            Text("1000ml",
+                                              style: TextStyle(
+                                                color: Colors.pink,
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
@@ -454,7 +473,11 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
                                             Text("2pm - 4pm"),
-                                            Text("700ml"),
+                                            Text("700ml",
+                                              style: TextStyle(
+                                                color: Colors.pink,
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
@@ -465,7 +488,11 @@ class _HomeContentScreenState extends State<HomeContentScreen> {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
                                             Text("4pm - now"),
-                                            Text("900ml"),
+                                            Text("900ml",
+                                              style: TextStyle(
+                                                color: Colors.pink,
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
