@@ -410,12 +410,6 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
                 ],
               ),
 
-
-
-
-
-
-
               SizedBox(
                 height: 155.0,
                 child: ListView(
@@ -443,7 +437,7 @@ class _HoneyPancakeScreenState extends State<HoneyPancakeScreen> {
 
                         Padding(
                           padding: EdgeInsets.only(left: 20.0),
-                          child: Text("Pancakes more...",
+                          child: Text("",
                             style: GoogleFonts.poppins(
                               textStyle: TextStyle(
                                   fontSize: 14,
