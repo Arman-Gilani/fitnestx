@@ -1,92 +1,161 @@
-# 🏋️‍♂️ FitnestX - Flutter Fitness App UI
+# 💪 Fitness & Health Flutter App
 
-**FitnestX** is a modern Flutter application that brings the sleek and elegant **Fitness App UI Kit for Figma** to life. This project showcases beautifully designed screens for fitness tracking—covering workouts, meals, sleep, and user progress—all built with clean code and responsive layouts using Flutter.
-
-## 📱 Completed Screens
-
-The following UI/UX screens have been fully implemented in Flutter based on the original Figma design:
-
-- `home_content_screen.dart` – Displays workout/meals/sleep content
-- `home_screen.dart` – Main dashboard with navigation
-- `login_screen.dart` – User login interface
-- `profile_screen.dart` – User profile and settings
-- `progress_screen.dart` – Visual progress tracking
-- `registration_screen.dart` – New user registration
-- `schedule_screen.dart` – Workout or meal schedule view
-- `search_screen.dart` – Search functionality across content
-- `splash_screen1.dart` – Intro splash screen 1
-- `splash_screen2.dart` – Intro splash screen 2
-- `welcome_screen.dart` – Initial welcome screen after splash
-
-## ✨ Features
-
-- ✅ Pixel-perfect UI implementation from the Figma design
-- 🎯 Modular, maintainable Dart code using Flutter best practices
-- 🔍 Search interface for quickly finding content
-- 📈 Progress screen for tracking fitness goals
-- 📱 Responsive layouts optimized for different screen sizes
-
-## 💡 Tech Stack
-
-- **Flutter** – UI development
-- **Dart** – Programming language
-- **Provider / GetX / Riverpod** *(based on your choice)* – State management
-- **Google Fonts** – Beautiful typography
-- **flutter_svg** – For rendering SVG assets
-
-## 🖼️ UI/UX Source
-
-This project is based on the free design template:  
-[Fitness Free App UI Kit for Figma](https://www.uistore.design/items/fitness-free-app-ui-kit-for-figma/)
-
-## 🚀 Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/<your-username>/fitnestx.git
-   cd fitnestx
-````
-
-2. **Install dependencies:**
-
-   ```bash
-   flutter pub get
-   ```
-
-3. **Run the app:**
-
-   ```bash
-   flutter run
-   ```
-
-## 📂 Project Structure (Simplified)
-
-```
-lib/
-├── main.dart
-├── screens/           # All UI screens (as listed above)
-├── widgets/           # Reusable UI components
-├── models/            # Data models (optional)
-└── utils/             # Constants, helpers, themes, etc.
-```
-
-## 📌 To-Do
-
-* [ ] Implement remaining screens
-* [ ] Implement backend/API integration
-* [ ] Add state management (Provider/GetX/etc.)
-* [ ] Add workout, meal, and sleep data logic
-* [ ] Include animations and transitions
-* [ ] Improve navigation and routing
-
-## 🙌 Contributing
-
-Contributions are welcome! Feel free to fork the project and open a pull request with enhancements, bug fixes, or new features.
-
-## 📃 License
-
-This project is open-source and available under the [MIT License](LICENSE).
+A modern fitness and health tracking application built with **Flutter**.  
+The app provides features like **workout tracking, meal planning, sleep monitoring, activity goals, and progress visualization** — everything you need in one place to stay fit and healthy.
 
 ---
 
-> Built with 💙 using Flutter – by \[Arman Gilani]
+## ✨ Features
+
+### 🏋️ Workout
+- Full-body workout details with exercises, schedules, and equipment info.
+- Track and analyze workouts with progress graphs.
+- Calendar-based workout schedules.
+- Workout activity breakdown with statistics.
+
+### 🍽️ Meals & Nutrition
+- Browse meal categories with diet recommendations.
+- Detailed recipes with nutrition facts, ingredients, and cooking steps.
+- Weekly and daily meal planner with suggestions.
+- Calendar-based meal schedule view.
+
+### 😴 Sleep
+- Add and manage alarms for healthy routines.
+- Sleep schedule management with bedtime/wake time tracking.
+- Sleep analytics with graphs for daily and nightly trends.
+
+### 📊 Tracking & Goals
+- Track daily activities with target goals and analytics.
+- Motivational goal selection screens to inspire users.
+- Progress results with **before/after photo comparisons** and graphs.
+
+### 👤 Authentication & Profile
+- Secure login and user registration.
+- Profile management with personal details (height, weight, age, etc.).
+- Access to account settings and customization.
+
+### 🏠 General / Core
+- Interactive **home dashboard** with BMI, calories, water intake, heart rate, sleep, and workout progress.
+- Search screen with navigation shortcuts.
+- Notifications for app and system updates.
+
+### 🚀 Onboarding / Splash
+- Six splash screens with engaging visuals.
+- Welcome screen introducing the app’s purpose.
+
+---
+
+## 🛠️ Tech Stack
+- **Flutter** – UI development  
+- **Dart** – Core programming language  
+- **Provider / State Management** (if used)  
+- **Firebase / Local Storage** (if integrated)  
+
+---
+
+## 📱 Completed Screens
+
+### 🏋️ Workout
+- `fullbody_workout_screen.dart` – Displays workout details including schedule, difficulty, equipment, and exercises.  
+- `progress_screen.dart` – Tracks and visualizes workout progress with stats.  
+- `schedule_screen.dart` – Workout/meal schedule with a calendar-based view.  
+- `workout_tracker_screen.dart` – Tracks workout activity with analytics and graphs.  
+- `workout_tracker_screen1.dart` – Detailed breakdown of all workout activity data.  
+
+### 🍽️ Meals & Nutrition
+- `breakfast_screen.dart` – Categories, diet recommendations, and popular breakfast options.  
+- `honey_pancake_screen.dart` – Meal details: calories, nutrition, ingredients, and recipe steps.  
+- `meal_planner_screen.dart` – Weekly/daily meal planner with nutrition and suggestions.  
+- `meal_schedule_screen.dart` – Calendar-based meal schedule for breakfast, lunch, snacks, and dinner.  
+
+### 😴 Sleep
+- `add_alarm_screen.dart` – Set and manage alarms.  
+- `sleep_schedule_screen.dart` – View bedtime, wake time, and alarms.  
+- `sleep_tracker_screen.dart` – Sleep analytics with graphs and patterns.  
+
+### 📊 Tracking & Goals
+- `activity_tracker_screen.dart` – Activity data, targets, and analytics.  
+- `goal_screen1.dart` – Motivational goal option screen 1.  
+- `goal_screen2.dart` – Motivational goal option screen 2.  
+- `goal_screen3.dart` – Motivational goal option screen 3.  
+- `result_screen.dart` – Results with photo comparisons and graph statistics.  
+
+### 👤 Authentication & Profile
+- `login_screen.dart` – Login with credentials.  
+- `registration_screen.dart` – Create a new account.  
+- `profile_screen.dart` – Profile details (height, weight, age, settings).  
+
+### 🏠 General
+- `home_screen.dart` – Main dashboard with bottom navigation.  
+- `home_content_screen.dart` – Dashboard with BMI, heart rate, calories, water, sleep, and workout stats.  
+- `search_screen.dart` – Search with quick navigation.  
+- `notifications_screen.dart` – App and system notifications.  
+
+### 🚀 Onboarding / Splash
+- `splash_screen1.dart` – Splash screen 1.  
+- `splash_screen2.dart` – Splash screen 2.  
+- `splash_screen3.dart` – Splash screen 3.  
+- `splash_screen4.dart` – Splash screen 4.  
+- `splash_screen5.dart` – Splash screen 5.  
+- `splash_screen6.dart` – Splash screen 6.  
+- `welcome_screen.dart` – Welcome screen after splash.  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Install [Flutter](https://docs.flutter.dev/get-started/install)  
+- Install [Dart SDK](https://dart.dev/get-dart)  
+- Android Studio / VS Code with Flutter extensions  
+
+### Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/your-username/fitness-app.git
+
+# Navigate to project folder
+cd fitness-app
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+````
+
+---
+
+## 📂 Folder Structure
+
+```
+lib/
+ ├── screens/        # All screen files (Workout, Meals, Sleep, etc.)
+ ├── widgets/        # Reusable UI components
+ ├── models/         # Data models
+ ├── services/       # API/Database services
+ ├── utils/          # Helpers, constants
+ └── main.dart       # Entry point
+```
+
+---
+
+## 🤝 Contribution
+
+Pull requests are welcome! If you’d like to contribute, please fork the repo and submit a PR.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – feel free to use and modify.
+
+---
+
+```
+
+---
+
+👉 This is a polished **README.md** ready to push.  
+Do you also want me to add **screenshots section with placeholders** (like `assets/screenshots/home.png`) so you can attach actual UI images later?
+```
